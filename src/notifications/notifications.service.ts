@@ -119,7 +119,7 @@ export class NotificationsService {
 			const pushMessage = {
 				to: pushToken,
 				sound: 'default',
-				title: 'Portesillo',
+				title: 'Portecillo',
 				body: message,
 				data: { type, orderId },
 			};
